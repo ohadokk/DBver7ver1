@@ -45,7 +45,7 @@ public class EventsAdapter extends BaseAdapter {
         if (inflater == null)
             inflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (convertView == null)
-            convertView = inflater.inflate(R.layout.contact_entry, null);
+            convertView = inflater.inflate(R.layout.event_entry, null);
 
         TextView name= (TextView) convertView.findViewById(R.id.contactName);
         TextView contact = (TextView) convertView.findViewById(R.id.contact);
