@@ -47,9 +47,9 @@ public class EventsAdapter extends BaseAdapter {
         if (convertView == null)
             convertView = inflater.inflate(R.layout.event_entry, null);
 
-        TextView name= (TextView) convertView.findViewById(R.id.contactName);
-        TextView contact = (TextView) convertView.findViewById(R.id.contact);
-        TextView type = (TextView) convertView.findViewById(R.id.contactType);
+        TextView name= (TextView) convertView.findViewById(R.id.EventName);
+        TextView contact = (TextView) convertView.findViewById(R.id.EventNumber);
+        TextView type = (TextView) convertView.findViewById(R.id.EventType);
         Button delete = (Button) convertView.findViewById(R.id.delete);
 
         Events list = EventList.get(position);

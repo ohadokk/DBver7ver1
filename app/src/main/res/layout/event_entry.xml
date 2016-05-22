@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/contactName"
+        android:id="@+id/EventName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dawn of the planet"
@@ -25,7 +25,7 @@
         android:text="Del" />
 
     <TextView
-        android:id="@+id/contact"
+        android:id="@+id/EventNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="9999999999"
@@ -33,12 +33,12 @@
         android:layout_marginTop="5dp"/>
 
     <TextView
-        android:id="@+id/contactType"
+        android:id="@+id/EventType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
-        android:layout_below="@+id/contact"
-        android:layout_alignLeft="@+id/contact"
+        android:layout_below="@+id/EventNumber"
+        android:layout_alignLeft="@+id/EventNumber"
         android:layout_marginTop="3dp"/>
 
 </RelativeLayout>
